@@ -4,71 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Random recepie</title>
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/daf306ec93.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>hello world</h1>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quam iste
-      id at, fuga inventore omnis hic fugit numquam esse?
-    </p>
-    <h2>hello world</h2>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-      reiciendis? Sequi voluptates maiores similique perferendis quidem autem
-      reiciendis sapiente consequatur?
-    </p>
-    <h1>hello world</h1>
-    <h2>hello world</h2>
-    <h3>hello world</h3>
-    <h4>hello world</h4>
-    <h5>hello world</h5>
-    <a href="#">link example</a>
-    <ul>
-      <li>first item</li>
-      <li>second item</li>
-      <li>third item</li>
-    </ul>
-
-    <img src="./images/image.jpg" alt="computer" class="img" />
-    <br />
-    <br />
-    <button class="btn" type="button">regular button</button>
-    <button class="btn btn-hipster" type="button">hipster button</button>
-    <br />
-    <br />
-    <div class="alert alert-danger">danger</div>
-    <div class="alert alert-success">success</div>
-    <br />
-    <form class="form">
-      <h4>contact form</h4>
-      <div class="form-row">
-        <label for="name" class="form-label">Name</label>
-        <input
-          type="text"
-          placeholder="hello there"
-          id="name"
-          class="form-input"
-        />
-      </div>
-      <div class="form-row">
-        <label for="number" class="form-label">Number</label>
-        <input type="number" id="number" class="form-input" />
-      </div>
-      <div class="form-row">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" id="email" class="form-input" />
-        <small class="form-alert">please provide value</small>
-      </div>
-      <div class="form-row">
-        <label for="textarea" class="form-label">Textarea</label>
-        <textarea class="form-textarea">Default value</textarea>
-      </div>
-      <button class="btn btn-block" type="button">Submit</button>
-    </form>
+    <main>
+      <aside class="sidebar show-sidebar">
+        <div class="close-btn-container">
+          <button type="button" class="btn close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </aside>
+      <header class="header section-center">
+        <div class="header-container">
+          <div class="logo"></div>
+          <button class="btn-bars">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </header>
+      <section class="section section-center"></section>
+      <footer class="footer"></footer>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>
