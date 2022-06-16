@@ -16,14 +16,17 @@
   </head>
   <body>
     <main>
-      <aside class="sidebar show-sidebar">
+      <!-- sidebar -->
+      <aside class="sidebar">
         <div class="close-btn-container">
           <button type="button" class="btn close-btn">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </div>
       </aside>
-      <header class="header section-center">
+      <!-- end of sidebar -->
+      <!-- header -->
+      <header class="header">
         <div class="header-container">
           <div class="logo"></div>
           <button class="btn-bars">
@@ -31,8 +34,30 @@
           </button>
         </div>
       </header>
-      <section class="section section-center"></section>
+      <!-- end of header -->
+      <!-- section -->
+      <section class="section">
+        <div class="question-container">
+          <h2 class="question">Что приготовить сегодня?</h2>
+          <p>Нажми, чтобы получить случайный рецепт</p>
+          <div class="btn random-btn">Случайный рецепт</div>
+        </div>
+        <div class="answer-container hidden">
+          <h4 class="answer">окрошка</h4>
+          <small class="disctiption"
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
+            quis!</small
+          >
+          <div class="img-container">
+            <img src="./images/okr.jpeg" class="img" alt="" />
+          </div>
+          <a href="#">полный рецепт</a>
+        </div>
+      </section>
+      <!-- end of section -->
+      <!-- footer -->
       <footer class="footer"></footer>
+      <!-- end of footer -->
     </main>
     <script src="app.js"></script>
   </body>
