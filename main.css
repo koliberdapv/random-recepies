@@ -267,7 +267,7 @@ main {
 .header {
   height: 5rem;
   width: 100%;
-  background-color: var(--primary-200);
+  background: var(--white);
   box-shadow: var(--shadow-2);
 }
 
@@ -281,9 +281,7 @@ main {
 }
 
 .logo {
-  width: 180px;
-  height: 50px;
-  background: var(--grey-300);
+  width: 220px;
 }
 
 .btn-bars {
@@ -299,16 +297,10 @@ main {
   transition: var(--transition);
   display: inline-block;
 }
-
-.btn-bars:hover {
-  color: var(--white);
-}
-
 .section {
   margin-top: rem;
   height: calc(100% - 7.5rem);
   width: 100%;
-  background: var(--grey-50);
   display: flex;
   flex-direction: column;
 }
@@ -318,6 +310,7 @@ main {
   width: 100%;
   text-align: center;
   margin-top: 3rem;
+  letter-spacing: var(--letterSpacing);
 }
 
 .question {
@@ -326,6 +319,10 @@ main {
 
 .question-container p {
   font-size: 0.9rem;
+}
+
+.random-btn {
+  background-color: var(--primary-400);
 }
 
 .answer-container {

@@ -1,17 +1,17 @@
 const sidebar = document.querySelector('.sidebar');
-const closeBtn = document.querySelector('.close-btn');
-const btnBars = document.querySelector('.btn-bars');
-const randomBtn = document.querySelector('.random-btn');
-const asnwerContainer = document.querySelector('.answer-container');
+const closeSidebarBtn = document.querySelector('.close-btn');
+const openSidebarBtn = document.querySelector('.btn-bars');
+const randomRecipeBtn = document.querySelector('.random-btn');
+const randomRecipeContainer = document.querySelector('.answer-container');
 
-btnBars.addEventListener('click', function () {
-  sidebar.classList.add('show-sidebar');
-});
+openSidebarBtn.addEventListener('click', toggleSidebar);
+closeSidebarBtn.addEventListener('click', toggleSidebar);
+randomRecipeBtn.addEventListener('click', showRandomRecipe);
 
-closeBtn.addEventListener('click', function () {
-  sidebar.classList.remove('show-sidebar');
-});
+function toggleSidebar() {
+  sidebar.classList.toggle('show-sidebar');
+}
 
-randomBtn.addEventListener('click', function () {
-  asnwerContainer.classList.toggle('hidden');
-});
+function showRandomRecipe() {
+  randomRecipeContainer.classList.toggle('hidden');
+}
