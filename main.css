@@ -58,7 +58,38 @@ html {
   --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
+/* .darkmode {
+  --primary-100: #00242b;
+  --primary-200: #004856;
+  --primary-300: #006c82;
+  --primary-500: #0090ad;
+  --primary-600: #00b4d8;
+  --primary-600: #33c3e0;
+  --primary-700: #66d2e8;
+  --primary-600: #99e1ef;
+  --primary-900: #ccf0f7;
 
+  --grey-50: #121212;
+  --grey-100: #0f172a;
+  --grey-200: #1e293b;
+  --grey-300: #334155;
+  --grey-400: #475569;
+  --grey-500: #64748b;
+  --grey-600: #94a3b8;
+  --grey-700: #cbd5e1;
+  --grey-800: #e2e8f0;
+  --grey-900: #f1f5f9;
+
+  --black: #fff;
+  --white: #222;
+  --red-light: #842029;
+  --red-dark: #f8d7da;
+  --green-light: #0f5132;
+  --green-dark: #d1e7dd;
+}
+.darkmodeBtn {
+  margin-left: 2rem;
+} */
 body {
   background: var(--backgroundColor);
   font-family: var(--bodyFont);
